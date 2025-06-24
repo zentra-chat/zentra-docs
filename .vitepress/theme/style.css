@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --vp-c-brand: #10B981 !important;
+  --vp-c-brand-dark: #047857 !important;
+  --vp-c-bg: #ffffff !important;
+  --vp-c-bg-alt: #e4e4e4 !important;
+  --vp-c-text: #1f2937 !important;
+}
+
+.dark {
+  --vp-c-brand: #10B981 !important;
+  --vp-c-brand-dark: #047857 !important;
+  --vp-c-bg: #131A2A !important;
+  --vp-c-bg-alt: #182136 !important;
+  --vp-c-text: #f1f5f9 !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--vp-c-bg);
+  color: var(--vp-c-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--vp-c-brand) !important;
+  /* text-decoration: underline; */
+}
+
+a:hover {
+  color: var(--vp-c-brand-dark) !important;
+}
+
+.VPButton.primary {
+  background-color: var(--vp-c-brand) !important;
+  border: none;
+  color: white;
+}
+
+.VPButton.primary:hover {
+  background-color: var(--vp-c-brand-dark) !important;
+}
+
