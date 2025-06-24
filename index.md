@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: Zentra
-  tagline: Documentation for the celestite chat application
+  tagline: Documentation for the Zentra chat application
   actions:
     - theme: brand
       text: Markdown Examples

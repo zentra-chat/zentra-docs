@@ -1,7 +1,7 @@
 {
-  "name": "celestite-docs",
+  "name": "zentra-docs",
   "version": "1.0.0",
-  "description": "Documentation for the celestite chat application",
+  "description": "Documentation for the zentra chat application",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",
